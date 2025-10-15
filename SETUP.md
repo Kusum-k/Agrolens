@@ -1,6 +1,6 @@
 # AgroLens Setup Guide
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -41,7 +41,7 @@ cp .env.example .env
 npm start
 ```
 
-## 🐳 Docker Setup
+##  Docker Setup
 
 ### Quick Start with Docker Compose
 ```bash
@@ -54,7 +54,7 @@ This will start all services:
 - AI Service: http://localhost:5001
 - MongoDB: localhost:27017
 
-## 🔧 Configuration
+##  Configuration
 
 ### Required API Keys
 1. **OpenWeatherMap API**: Get from https://openweathermap.org/api
@@ -83,7 +83,7 @@ OPENWEATHER_API_KEY=your_openweather_api_key
 NASA_API_KEY=your_nasa_api_key
 ```
 
-## 📱 Usage
+##  Usage
 
 1. **Register**: Create a farmer account
 2. **Add Crops**: Register your crops with location details
@@ -91,7 +91,7 @@ NASA_API_KEY=your_nasa_api_key
 4. **Alerts**: Receive notifications when risk is high
 5. **Act**: Follow AI-generated recommendations
 
-## 🧪 Testing
+##  Testing
 
 ### Backend Tests
 ```bash
@@ -105,7 +105,7 @@ cd ai-service
 python -m pytest tests/
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### Vercel (Frontend)
 ```bash
@@ -122,7 +122,7 @@ vercel --prod
 1. Create cluster at https://cloud.mongodb.com
 2. Update MONGODB_URI in environment
 
-## 🔍 API Documentation
+##  API Documentation
 
 ### Authentication Endpoints
 - `POST /api/auth/register` - Register new user
@@ -143,7 +143,7 @@ vercel --prod
 - `POST /predict` - Get disease risk prediction
 - `GET /health` - Service health check
 
-## 🛠️ Development
+##  Development
 
 ### Project Structure
 ```
@@ -172,7 +172,7 @@ agrolens-ai-crop-forecast/
 3. Add tests
 4. Submit pull request
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -193,14 +193,14 @@ agrolens-ai-crop-forecast/
 - AI Service: Check Flask logs
 - Frontend: Check browser console
 
-## 📞 Support
+##  Support
 
 For issues and questions:
 1. Check existing GitHub issues
 2. Create new issue with details
 3. Include error logs and environment info
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create feature branch
