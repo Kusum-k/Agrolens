@@ -193,20 +193,4 @@ agrolens-ai-crop-forecast/
 - AI Service: Check Flask logs
 - Frontend: Check browser console
 
-##  Support
 
-For issues and questions:
-1. Check existing GitHub issues
-2. Create new issue with details
-3. Include error logs and environment info
-
-##  Contributing
-
-1. Fork the repository
-2. Create feature branch
-3. Make changes with tests
-4. Submit pull request
-
-## 📄 License
-
-MIT License - see LICENSE file for details.
