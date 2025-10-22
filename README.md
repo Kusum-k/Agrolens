@@ -69,6 +69,3 @@ agrolens-ai-crop/
 5. Automated alerts sent if risk exceeds threshold
 6. Data stored for analytics and model improvement
 
-## 📄 License
-
-MIT License - see LICENSE file for details.
